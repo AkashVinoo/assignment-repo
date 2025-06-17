@@ -19,7 +19,7 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Configure Git
+      - name: Configure Git with 24f2000935@ds.study.iitm.ac.in
         run: |
           git config --global user.name 'GitHub Actions'
           git config --global user.email '24f2000935@ds.study.iitm.ac.in'
